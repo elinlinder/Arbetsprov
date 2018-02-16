@@ -1,0 +1,256 @@
+body{
+    background-color:#EEEEEE;
+    height:auto;
+    width:100%;
+    font-family:Tahoma, Geneva, sans-serif;
+    font-size:1em;
+    color:white;
+}
+
+.search-window{
+    background: linear-gradient(#002650,#3A57A6);
+    height: 800px;
+    width: 25%;
+    margin: 0em auto;
+    position: relative;
+    overflow: hidden;
+}
+
+#logo{
+    width: 51%;
+    height: auto;
+    margin: 24%;
+}
+.search{
+    height: 8%;
+    width: 85%;
+    border-radius: 5px;
+    background-color: #8092A7;
+    margin: 0% auto 0px 8%;
+    position: absolute;
+}
+
+#searchLogo{
+    width: 8%;
+    padding-right: 10px;
+    margin-left: 10px;
+    margin-top: 4%;
+    float: left;
+}
+#searchbox{
+    width: 80%;
+    height: 90%;
+    font-size: 25px;
+    background-color: #8092A7;
+    margin: 4% auto;
+    color:white;
+}
+
+input, input:focus{
+    border: none;
+    outline:none;
+}
+
+::placeholder{
+   color:#B5BFC9;
+}
+.result-wrapper{
+    background: linear-gradient(#1A3C76,#3A57A6);
+    z-index: 1;
+    position: absolute;
+    margin-top: 67px;
+}
+table.search-results{
+    margin-top: 0;
+    width: 85%;
+    margin-left: 8%;
+    position: relative;
+}
+
+.result{
+    background-color: #37557A;
+}
+.no-results{
+    margin-top: -95px;
+    margin-left: 40px;
+    position: absolute;
+    width: 300px;
+}
+.row{
+    margin-top: 10%;
+    background-color: #345289;
+    font-size: 21px;
+}
+.saved-search{
+    background-color: #274775;
+    width: 96%;
+    margin-left: -40px;
+    font-size: 27px;
+    height: 47px;
+    padding-left: 60px;
+    padding-top: 10px;
+}
+.saved-search:hover > .btn-wrap{
+    display:block;
+    
+}
+.saved-search:hover{
+    background-color:#38577D;
+
+}
+#savedSearch{
+    width: 116%;
+    position: absolute;
+    margin: 9px 8px auto -36px;
+}
+
+.close-button{
+    height: 28px;
+    width: 28px;
+    background-color: white;
+    border-radius: 19px;
+    border: solid 0.1px grey;
+    margin: 14px 23px;
+    color:grey;
+
+}
+.btn-wrap{
+    margin: -38px 0px 0;
+    float: right;
+    background-color: #793952;
+    height: 57px;
+    width: 17%;
+    display:none;
+}
+.timestamp{
+    margin-top: -26px;
+    margin-left: 114px;
+    font-size: 17px;
+}
+@media only screen and (max-width: 1730px) {
+    
+    .close-button{
+        margin: 10px 11px;
+    }
+    .saved-search{
+        width:92%;
+        font-size: 25px;
+        height:38px;
+    }
+    #savedSearch{
+        width: 117%;
+        margin: 12px 8px auto -23px;
+    }
+    .search{
+        height: 7%;
+    }
+    #searchBox{
+        font-size: 22px;
+    }
+    .btn-wrap{
+        margin: -35px 0px 0;
+        width: 15%;
+        height:48px;
+    }
+    .timestamp{
+        margin-left: 79px;
+    }
+}
+@media only screen and (max-width: 1500px) {
+    
+    #searchbox { 
+        font-size: 14px;
+        margin-top: 7px;
+       }
+    .search{
+        height: 4%
+    }
+    .result{
+        font-size: 15px;
+    }
+    table.search-results{
+        margin-top: -13px;
+        width: 86%;
+        margin-left: 7%;
+    }
+    .close-button{
+        margin: 10px 14px;
+        height: 21px;
+        width: 21px;
+    }
+    .saved-search{
+        height: 31px;
+        font-size: 18px;
+    }
+    #searchLogo{
+        height: 31px;
+        margin-top:0px;
+    }
+    .btn-wrap{
+        margin: -29px 0px 0px;
+        width: 17%;
+        height:41px;
+    }
+    .timestamp{
+        margin-top: -20px;
+        margin-left: 62px;
+        font-size: 14px;
+    }
+    .result-wrapper{
+        margin-top: 40px;
+    }
+    .no-results{
+        margin-top: -50px;
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width:1300px) {
+    
+            .search{
+                height: 4%
+            }
+            .saved-search{
+                width: 109%;
+                padding-left: 25px;
+            }
+            .close-button{
+                margin: 9px 9px;
+            }
+            #savedSearch{
+                width: 117%;
+                margin: 14px 31px auto -21px;
+            }
+            .timestamp{
+                margin-left: 42px;
+            }
+        }
+    @media only screen and (max-width:1000px) {
+
+        .search{
+            height: 4%
+        }
+        .saved-search{
+            width: 109%;
+            padding-left: 25px;
+        }
+        .close-button{
+            margin: 9px 9px;
+        }
+        #savedSearch{
+            width: 117%;
+            margin: 14px 31px auto -21px;
+        }
+        .timestamp{
+            margin-left: 42px;
+        }
+    }
+/*
+tbody{
+    margin-top: 64%;
+    position: absolute;
+}*/
+
+
+/*margin-top: 30%;
+*/
